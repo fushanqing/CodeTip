@@ -1,0 +1,642 @@
+{
+  "object": [
+    {
+      "nodeKey": "/",
+      "nodeName": "/",
+      "nodePath": "org/springframework//",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "amqp/",
+      "nodeName": "amqp/",
+      "nodePath": "org/springframework/amqp/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "analytics/",
+      "nodeName": "analytics/",
+      "nodePath": "org/springframework/analytics/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "android/",
+      "nodeName": "android/",
+      "nodePath": "org/springframework/android/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "aws/",
+      "nodeName": "aws/",
+      "nodePath": "org/springframework/aws/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "batch/",
+      "nodeName": "batch/",
+      "nodePath": "org/springframework/batch/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "beandoc/",
+      "nodeName": "beandoc/",
+      "nodePath": "org/springframework/beandoc/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "boot/",
+      "nodeName": "boot/",
+      "nodePath": "org/springframework/boot/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "build/",
+      "nodeName": "build/",
+      "nodePath": "org/springframework/build/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "cloud/",
+      "nodeName": "cloud/",
+      "nodePath": "org/springframework/cloud/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "credhub/",
+      "nodeName": "credhub/",
+      "nodePath": "org/springframework/credhub/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "data/",
+      "nodeName": "data/",
+      "nodePath": "org/springframework/data/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "flex/",
+      "nodeName": "flex/",
+      "nodePath": "org/springframework/flex/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "geode/",
+      "nodeName": "geode/",
+      "nodePath": "org/springframework/geode/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "guice/",
+      "nodeName": "guice/",
+      "nodePath": "org/springframework/guice/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "hateoas/",
+      "nodeName": "hateoas/",
+      "nodePath": "org/springframework/hateoas/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "integration/",
+      "nodeName": "integration/",
+      "nodePath": "org/springframework/integration/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "javaconfig/",
+      "nodeName": "javaconfig/",
+      "nodePath": "org/springframework/javaconfig/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "kafka/",
+      "nodeName": "kafka/",
+      "nodePath": "org/springframework/kafka/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "ldap/",
+      "nodeName": "ldap/",
+      "nodePath": "org/springframework/ldap/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "maven/",
+      "nodeName": "maven/",
+      "nodePath": "org/springframework/maven/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "metrics/",
+      "nodeName": "metrics/",
+      "nodePath": "org/springframework/metrics/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "mobile/",
+      "nodeName": "mobile/",
+      "nodePath": "org/springframework/mobile/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "osgi/",
+      "nodeName": "osgi/",
+      "nodePath": "org/springframework/osgi/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "plugin/",
+      "nodeName": "plugin/",
+      "nodePath": "org/springframework/plugin/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "restdocs/",
+      "nodeName": "restdocs/",
+      "nodePath": "org/springframework/restdocs/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "retry/",
+      "nodeName": "retry/",
+      "nodePath": "org/springframework/retry/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "roo/",
+      "nodeName": "roo/",
+      "nodePath": "org/springframework/roo/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "security/",
+      "nodeName": "security/",
+      "nodePath": "org/springframework/security/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "session/",
+      "nodeName": "session/",
+      "nodePath": "org/springframework/session/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "shell/",
+      "nodeName": "shell/",
+      "nodePath": "org/springframework/shell/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "social/",
+      "nodeName": "social/",
+      "nodePath": "org/springframework/social/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-agent/",
+      "nodeName": "spring-agent/",
+      "nodePath": "org/springframework/spring-agent/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-aop/",
+      "nodeName": "spring-aop/",
+      "nodePath": "org/springframework/spring-aop/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-asm/",
+      "nodeName": "spring-asm/",
+      "nodePath": "org/springframework/spring-asm/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-aspects/",
+      "nodeName": "spring-aspects/",
+      "nodePath": "org/springframework/spring-aspects/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-beandoc/",
+      "nodeName": "spring-beandoc/",
+      "nodePath": "org/springframework/spring-beandoc/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-beans/",
+      "nodeName": "spring-beans/",
+      "nodePath": "org/springframework/spring-beans/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-binding/",
+      "nodeName": "spring-binding/",
+      "nodePath": "org/springframework/spring-binding/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-context-indexer/",
+      "nodeName": "spring-context-indexer/",
+      "nodePath": "org/springframework/spring-context-indexer/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-context-support/",
+      "nodeName": "spring-context-support/",
+      "nodePath": "org/springframework/spring-context-support/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-context/",
+      "nodeName": "spring-context/",
+      "nodePath": "org/springframework/spring-context/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-core/",
+      "nodeName": "spring-core/",
+      "nodePath": "org/springframework/spring-core/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-dao/",
+      "nodeName": "spring-dao/",
+      "nodePath": "org/springframework/spring-dao/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-expression/",
+      "nodeName": "spring-expression/",
+      "nodePath": "org/springframework/spring-expression/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-framework-bom/",
+      "nodeName": "spring-framework-bom/",
+      "nodePath": "org/springframework/spring-framework-bom/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-full/",
+      "nodeName": "spring-full/",
+      "nodePath": "org/springframework/spring-full/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-hibernate/",
+      "nodeName": "spring-hibernate/",
+      "nodePath": "org/springframework/spring-hibernate/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-hibernate2/",
+      "nodeName": "spring-hibernate2/",
+      "nodePath": "org/springframework/spring-hibernate2/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-hibernate3/",
+      "nodeName": "spring-hibernate3/",
+      "nodePath": "org/springframework/spring-hibernate3/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-ibatis/",
+      "nodeName": "spring-ibatis/",
+      "nodePath": "org/springframework/spring-ibatis/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-instrument-tomcat/",
+      "nodeName": "spring-instrument-tomcat/",
+      "nodePath": "org/springframework/spring-instrument-tomcat/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-instrument/",
+      "nodeName": "spring-instrument/",
+      "nodePath": "org/springframework/spring-instrument/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jca/",
+      "nodeName": "spring-jca/",
+      "nodePath": "org/springframework/spring-jca/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jcl/",
+      "nodeName": "spring-jcl/",
+      "nodePath": "org/springframework/spring-jcl/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jdbc/",
+      "nodeName": "spring-jdbc/",
+      "nodePath": "org/springframework/spring-jdbc/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jdo/",
+      "nodeName": "spring-jdo/",
+      "nodePath": "org/springframework/spring-jdo/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jms/",
+      "nodeName": "spring-jms/",
+      "nodePath": "org/springframework/spring-jms/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jmx/",
+      "nodeName": "spring-jmx/",
+      "nodePath": "org/springframework/spring-jmx/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-jpa/",
+      "nodeName": "spring-jpa/",
+      "nodePath": "org/springframework/spring-jpa/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-ldap/",
+      "nodeName": "spring-ldap/",
+      "nodePath": "org/springframework/spring-ldap/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-messaging/",
+      "nodeName": "spring-messaging/",
+      "nodePath": "org/springframework/spring-messaging/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-mock/",
+      "nodeName": "spring-mock/",
+      "nodePath": "org/springframework/spring-mock/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-ojb/",
+      "nodeName": "spring-ojb/",
+      "nodePath": "org/springframework/spring-ojb/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-orm/",
+      "nodeName": "spring-orm/",
+      "nodePath": "org/springframework/spring-orm/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-oxm/",
+      "nodeName": "spring-oxm/",
+      "nodePath": "org/springframework/spring-oxm/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-parent/",
+      "nodeName": "spring-parent/",
+      "nodePath": "org/springframework/spring-parent/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-portlet/",
+      "nodeName": "spring-portlet/",
+      "nodePath": "org/springframework/spring-portlet/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-remoting/",
+      "nodeName": "spring-remoting/",
+      "nodePath": "org/springframework/spring-remoting/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-struts/",
+      "nodeName": "spring-struts/",
+      "nodePath": "org/springframework/spring-struts/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-support/",
+      "nodeName": "spring-support/",
+      "nodePath": "org/springframework/spring-support/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-test/",
+      "nodeName": "spring-test/",
+      "nodePath": "org/springframework/spring-test/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-tomcat-weaver/",
+      "nodeName": "spring-tomcat-weaver/",
+      "nodePath": "org/springframework/spring-tomcat-weaver/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-toplink/",
+      "nodeName": "spring-toplink/",
+      "nodePath": "org/springframework/spring-toplink/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-tuple-parent/",
+      "nodeName": "spring-tuple-parent/",
+      "nodePath": "org/springframework/spring-tuple-parent/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-tuple/",
+      "nodeName": "spring-tuple/",
+      "nodePath": "org/springframework/spring-tuple/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-tx/",
+      "nodeName": "spring-tx/",
+      "nodePath": "org/springframework/spring-tx/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-web/",
+      "nodeName": "spring-web/",
+      "nodePath": "org/springframework/spring-web/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-webflow/",
+      "nodeName": "spring-webflow/",
+      "nodePath": "org/springframework/spring-webflow/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-webflux/",
+      "nodeName": "spring-webflux/",
+      "nodePath": "org/springframework/spring-webflux/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-webmvc-portlet/",
+      "nodeName": "spring-webmvc-portlet/",
+      "nodePath": "org/springframework/spring-webmvc-portlet/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-webmvc-struts/",
+      "nodeName": "spring-webmvc-struts/",
+      "nodePath": "org/springframework/spring-webmvc-struts/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-webmvc/",
+      "nodeName": "spring-webmvc/",
+      "nodePath": "org/springframework/spring-webmvc/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring-websocket/",
+      "nodeName": "spring-websocket/",
+      "nodePath": "org/springframework/spring-websocket/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "spring/",
+      "nodeName": "spring/",
+      "nodePath": "org/springframework/spring/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "springloaded/",
+      "nodeName": "springloaded/",
+      "nodePath": "org/springframework/springloaded/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "statemachine/",
+      "nodeName": "statemachine/",
+      "nodePath": "org/springframework/statemachine/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "vault/",
+      "nodeName": "vault/",
+      "nodePath": "org/springframework/vault/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "webflow/",
+      "nodeName": "webflow/",
+      "nodePath": "org/springframework/webflow/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "ws/",
+      "nodeName": "ws/",
+      "nodePath": "org/springframework/ws/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    },
+    {
+      "nodeKey": "xd/",
+      "nodeName": "xd/",
+      "nodePath": "org/springframework/xd/",
+      "nodeType": "FOLDER",
+      "repoId": "central"
+    }
+  ],
+  "successful": true
+}
