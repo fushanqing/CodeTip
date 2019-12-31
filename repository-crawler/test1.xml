@@ -1,0 +1,21 @@
+<school schoolType="primarySchool">
+    <name>
+        群英小学
+    </name>
+    <teachers>
+        <teacher age="26" gender="man" teachingAge="3">
+            张三
+        </teacher>
+        <teacher age="26" gender="man" teachingAge="3">
+            李四
+        </teacher>
+    </teachers>
+    <students>
+        <student age="26" gender="man" grade="3">
+            张晓三
+        </student>
+        <student age="26" gender="man" grade="4">
+            李晓四
+        </student>
+    </students>
+</school>
