@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+           elementFormDefault="qualified">
+    <xs:element name="metadata" type="metadataType"/>
+    <xs:complexType name="versionsType">
+        <xs:sequence>
+            <xs:element type="xs:s" name="version"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="versioningType">
+        <xs:sequence>
+            <xs:element type="xs:s" name="release"/>
+            <xs:element type="versionsType" name="versions"/>
+            <xs:element type="xs:s" name="lastUpdated"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="metadataType">
+        <xs:sequence>
+            <xs:element type="xs:s" name="groupId"/>
+            <xs:element type="xs:s" name="artifactId"/>
+            <xs:element type="xs:s" name="version"/>
+            <xs:element type="versioningType" name="versioning"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
