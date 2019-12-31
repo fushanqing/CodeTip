@@ -1,0 +1,73 @@
+{
+  "from": 0,
+  "size": 10,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {
+            "boost": 1.0
+          }
+        }
+      ],
+      "filter": [
+        {
+          "bool": {
+            "should": [
+              {
+                "match": {
+                  "type": {
+                    "query": "CLASS",
+                    "operator": "OR",
+                    "prefix_length": 0,
+                    "max_expansions": 50,
+                    "fuzzy_transpositions": true,
+                    "lenient": false,
+                    "zero_terms_query": "NONE",
+                    "auto_generate_synonyms_phrase_query": true,
+                    "boost": 1.0
+                  }
+                }
+              }
+            ],
+            "adjust_pure_negative": true,
+            "boost": 1.0
+          }
+        },
+        {
+          "term": {
+            "groupId": {
+              "value": "com.google.guava",
+              "boost": 1.0
+            }
+          }
+        },
+        {
+          "term": {
+            "artifactId": {
+              "value": "guava",
+              "boost": 1.0
+            }
+          }
+        },
+        {
+          "term": {
+            "version": {
+              "value": "27.1-jre",
+              "boost": 1.0
+            }
+          }
+        }
+      ],
+      "adjust_pure_negative": true,
+      "boost": 1.0
+    }
+  },
+  "_source": {
+    "includes": [],
+    "excludes": [
+      "indexField",
+      "source"
+    ]
+  }
+}
