@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: top.binggo.codetip.filesystem.core.TestBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in top.binggo.codetip.filesystem.core.TestBeanTest

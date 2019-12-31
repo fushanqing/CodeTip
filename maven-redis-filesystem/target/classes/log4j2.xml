@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <Property name="DefaultPatternLayout">%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Property>
+        <Property name="SingleFileSize">256MB</Property>
+        <Property name="FileCount">20</Property>
+    </Properties>
+    <Appenders>
+        <!--应用的业务日志-->
+        <RollingFile name="App" fileName="${sys:user.home}/logs/app.log"
+                     filePattern="${sys:user.home}/logs/$${date:yyyy-MM}/app-%d{yyyy-MM-dd}-%i.log">
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="${DefaultPatternLayout}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="${SingleFileSize}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${FileCount}"/>
+        </RollingFile>
+        <!--所有的Info级别日志-->
+        <RollingFile name="Info" fileName="${sys:user.home}/logs/info.log"
+                     filePattern="${sys:user.home}/logs/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log">
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="${DefaultPatternLayout}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="${SingleFileSize}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${FileCount}"/>
+        </RollingFile>
+        <!--所有的Warn/Error日志-->
+        <RollingFile name="Warn-Error" fileName="${sys:user.home}/logs/warn-error.log"
+                     filePattern="${sys:user.home}/logs/$${date:yyyy-MM}/warn-error-%d{yyyy-MM-dd}-%i.log">
+            <Filters>
+                <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="${DefaultPatternLayout}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="${SingleFileSize}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${FileCount}"/>
+        </RollingFile>
+        <!--所有的Error日志-->
+        <RollingFile name="Error" fileName="${sys:user.home}/logs/error.log"
+                     filePattern="${sys:user.home}/logs/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log">
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="${DefaultPatternLayout}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="${SingleFileSize}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="${FileCount}"/>
+        </RollingFile>
+        <!--local环境中使用-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${DefaultPatternLayout}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="top.binggo.codetip" level="INFO" additivity="true">
+            <AppenderRef ref="App"/>
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Info"/>
+            <AppenderRef ref="Warn-Error"/>
+            <AppenderRef ref="Error"/>
+        </Root>
+    </Loggers>
+</Configuration>

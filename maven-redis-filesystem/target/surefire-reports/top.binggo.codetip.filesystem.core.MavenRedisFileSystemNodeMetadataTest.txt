@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: top.binggo.codetip.filesystem.core.MavenRedisFileSystemNodeMetadataTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.678 s - in top.binggo.codetip.filesystem.core.MavenRedisFileSystemNodeMetadataTest
